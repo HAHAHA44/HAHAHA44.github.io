@@ -3,8 +3,9 @@ layout: post
 title:  "ETL"
 date:   2022-10-01 19:19:23 -0000
 categories: tech code
+permalink: /new_page/etl
 ---
 
-#ETL
+# ETL
 
 this page is talk about the recognize of ETL.
