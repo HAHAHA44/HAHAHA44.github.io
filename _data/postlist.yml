@@ -1,15 +1,15 @@
 docs_list_title: POSTS
 docs:
-- year: 2022
+- year: "2022"
   items:
-  - month: 10
+  - month: "10"
     items:
     - title: ETL
-      day: 01
+      day: "01"
     - title: TEMP
-      day: 01
-  - month: 9
+      day: "01"
+  - month: "09"
     items:
     - title: how-to-write-a-blog
-      day: 23
-- year: 2021
+      day: "23"
+- year: "2021"
