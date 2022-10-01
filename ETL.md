@@ -1,6 +1,9 @@
-layout: page
-title: "ETL"
-permalink: /ETL/
+---
+layout: post
+title:  "ETL"
+date:   2022-10-01 19:19:23 -0000
+categories: tech code
+---
 
 #ETL
 
