@@ -1,12 +1,10 @@
-Show page!
+<h1>Latest Posts</h1>
 
-<h2>{{ site.data.postlist.docs_list_title }}</h2>
 <ul>
-  {% for year_item in site.data.postlist.docs %}
-    {% for month_item in year_item.items %}
-      {% for day_item in month_item.items %}
-      <li><a href="{{ year_item.year }}/{{month_item.month}}/{{day_item.day}}/{{day_item.title}}">{{ day_item.title }}</a></li>
-      {% endfor %}
-    {% endfor %}
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
   {% endfor %}
 </ul>
